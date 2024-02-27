@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Job Portal</h1>
+        <!-- Navigation or any other header content -->
+    </header>
+
+    <main>
+        <section id="search">
+            <h2>Search for Jobs</h2>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Search...">
+                <button class="submit">Search</button>
+            </form>
+        </section>
+
+        <section id="filters">
+            <h2>Filters</h2>
+            <div id="filter-options">
+                <label for="job-type">Job Type:</label>
+                <select id="job-type">
+                    <option value="all">All</option>
+                    <option value="full-time">Full Time</option>
+                    <option value="part-time">Part Time</option>
+                    <!-- Add more options as needed -->
+                </select>
+                <!-- Add more filter options (e.g., location, salary range) -->
+            </div>
+        </section>
+
+        <section id="job-listings">
+            <h2>Job Listings</h2>
+            <!-- Job listings will be dynamically added here -->
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+
+    <script src="jobscript.js"></script>
+</body>
+</html>
